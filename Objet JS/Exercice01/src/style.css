@@ -1,0 +1,118 @@
+/* GENERAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 5em;
+    text-align: center;
+    color: #fff;
+    background: orange;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+h2 {
+    width: 300px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 25px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+/* CONTAINER */
+
+/* Container legumes / fruits */
+
+.container__legumes h2 {
+    margin: 0 auto 30px;
+    color: #fff;
+    background: rgb(61, 177, 16);
+}
+
+.container__fruits h2{
+    margin: 50px auto;
+    color: #000;
+    background: rgb(238, 255, 0);
+}
+
+/* Box legumes / fruits*/
+
+.legumes,
+.fruits {
+    display: flex;
+    justify-content: space-around;
+}
+
+.legumes h3,
+.fruits h3 {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#box__legume {
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.box__fruits {
+    width: 35%;
+    height: 100%;
+    padding: 15px;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.box__fruits p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Image */ 
+
+.box__image__pomme,
+.box__image__banane {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+/* List */
+
+.list__varietes__pomme,
+.list__varietes__banane {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.list__varietes__pomme li,
+.list__varietes__banane li {
+    margin: 5px 0;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Information */
+
+.info__pomme,
+.info__banane {
+    background: #000;
+}
